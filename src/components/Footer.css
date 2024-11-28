@@ -1,10 +1,10 @@
 footer.footer {
   background-color: var(--color-green);
   color: var(--color-gray);
-  padding: 20px 40px; /* Ajuste de padding para dar mais espaçamento */
+  padding: 20px 40px;
   display: flex;
-  justify-content: space-between; /* Espaço entre as seções */
-  align-items: center; /* Centraliza as seções verticalmente */
+  justify-content: space-between; 
+  align-items: center; 
   gap: 20px; /* Espaçamento adicional entre as seções */
 }
 

@@ -12,12 +12,17 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="telephone">
-        <div>
-          <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#6a8f45", marginRight: "8px"}} />
-          (14) 99960-5608
-        </div>
+      <div>
+      <a 
+      href="https://wa.me/5514999605608" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{ color: "#363636", textDecoration: "none" }}>
+      <FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: "8px" }} />
+      (14) 99960-5608
+    </a>
       </div>
-
+    </div>
       <div className="logos">
         <div>
         <a 
@@ -36,7 +41,10 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <img src={facebookLogo} alt="Facebook" />
+          <a href="https://www.facebook.com/guedes.pinturas"
+          target='_blank'
+          rel='noopener noreferrer'>
+          <img src={facebookLogo} alt="Facebook" /></a>
         </div>
         <div>
           <a 

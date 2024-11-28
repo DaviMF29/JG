@@ -39,7 +39,7 @@
   left: 50%; 
   transform: translate(-50%, -50%); 
   text-align: center;
-  color: white; 
+  color: rgb(255, 255, 255); 
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
   z-index: 10;
   font-family: var(--font-primary); 
@@ -48,11 +48,13 @@
 .carousel-text h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .carousel-text p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+  color: white;
 }
 
 .carousel-btn {
