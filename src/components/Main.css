@@ -1,0 +1,62 @@
+.about-jg, .qualities, .mission-vision, .contact {
+  margin-bottom: 40px; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center; 
+  font-size: 40px; 
+  margin-bottom: 15px; 
+  font-weight: bold;
+  border-bottom: 3px solid var(--color-green); 
+  display: inline-block; 
+  padding-bottom: 5px; 
+}
+
+p {
+  line-height: 1.8; 
+  color: #555;
+  text-align: justify; 
+  margin-bottom: 15px; 
+}
+
+ul {
+  padding-left: 30px; 
+}
+
+ul li {
+  margin-bottom: 10px; 
+  line-height: 1.6;
+  color: #444;
+  font-size: 20px;
+}
+
+a {
+  color: var(--color-green); 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-jg, .qualities, .mission-vision, .contact {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  h2, h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

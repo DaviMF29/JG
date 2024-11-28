@@ -1,0 +1,22 @@
+.Logo {
+    display: flex;
+    justify-content: space-between; /* Separa os elementos da esquerda e direita */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 110px;
+    margin-left: 40px;
+    margin-right: 40px; /* Adicionei para garantir que o espaço seja proporcional */
+}
+  
+.Logo .img img {
+    width: 250px;
+    height: auto;
+    max-width: 400px;
+}
+  
+.Logo .info {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 20px;
+}
+  

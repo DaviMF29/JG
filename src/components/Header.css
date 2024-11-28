@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    top: 0;          
+    left: 0;         
+    width: 100%;
+    height: 8%;     
+    background-color: #fff; 
+    z-index: 1000;  
+    display: flex;   
+    justify-content: space-between; /* Espaço entre telefone e logos */
+    align-items: center; 
+    padding: 0.5rem 1rem; 
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.telephone {
+    display: flex; /* Organiza os itens na horizontal */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 3rem; /* Espaçamento entre os itens */
+    color: black; /* Define a cor do texto */
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+
+.logos {
+    display: flex;
+    gap: 1.2rem; /* Espaço entre as logos */
+    margin-right: 40px; /* Espaço da borda direita */
+    margin-top:5px
+}
+
+.logos img {
+    width: 25px; /* Redimensiona as logos */
+    height: 25px;
+    object-fit: contain; /* Garante que a proporção seja mantida */
+}
+

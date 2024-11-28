@@ -1,0 +1,41 @@
+footer.footer {
+  background-color: var(--color-green);
+  color: var(--color-gray);
+  padding: 20px 40px; /* Ajuste de padding para dar mais espaçamento */
+  display: flex;
+  justify-content: space-between; /* Espaço entre as seções */
+  align-items: center; /* Centraliza as seções verticalmente */
+  gap: 20px; /* Espaçamento adicional entre as seções */
+}
+
+.footer-section {
+  flex: 1; /* Faz as seções ocuparem larguras iguais */
+  min-width: 200px; /* Define uma largura mínima */
+  text-align: left; /* Mantém o texto alinhado à esquerda */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333; /* Para contraste com o fundo */
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: white;
+  line-height: 1.5; /* Melhor espaçamento entre as linhas */
+}
+
+@media (max-width: 768px) {
+  footer.footer {
+    flex-direction: column; /* Empilha as seções verticalmente em telas menores */
+    align-items: flex-start; /* Alinha à esquerda no modo empilhado */
+    padding: 20px; /* Reduz o padding em telas pequenas */
+  }
+
+  .footer-section {
+    text-align: center; /* Centraliza texto em telas menores */
+  }
+}
