@@ -6,7 +6,6 @@ import emailLogo from '../assets/email_logo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = () => {
@@ -14,12 +13,8 @@ const Header = () => {
     <header className="header-container">
       <div className="telephone">
         <div>
-        <FontAwesomeIcon icon={faPhone} style={{ color: "#6a8f45", marginRight: "8px" }} />
-          (99) 99999-9999
-        </div>
-        <div>
           <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#6a8f45", marginRight: "8px"}} />
-          (99) 99999-9999
+          (14) 99960-5608
         </div>
       </div>
 
@@ -33,7 +28,12 @@ const Header = () => {
           </a>
         </div>
         <div>
+        <a
+          href="https://wa.me/5514999605608"
+          target="_blank" 
+          rel="noopener noreferrer">
           <img src={whatsappLogo} alt="WhatsApp" />
+          </a>
         </div>
         <div>
           <img src={facebookLogo} alt="Facebook" />
