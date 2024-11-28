@@ -2,7 +2,7 @@ import './App.css'
 import Carousel from './components/Carousel'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Main from './components/Main'
+import Text from './components/Text'
 import Mainbar from './components/Mainbar'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Mainbar />
       <Carousel />
-      <Main />
+      <Text />
       <Footer />
     </>
   )

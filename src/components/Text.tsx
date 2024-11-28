@@ -1,4 +1,4 @@
-import "./Main.css";
+import "./Text.css";
 
 const Main = () => {
     return (
