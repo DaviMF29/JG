@@ -2,7 +2,6 @@ import instaLogo from '../assets/insta_logo.png';
 import whatsappLogo from '../assets/whatsapp_logo.png';
 import facebookLogo from '../assets/facebook_logo.png';
 import locationLogo from '../assets/location_logo.png';
-import emailLogo from '../assets/email_logo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -53,9 +52,6 @@ const Header = () => {
             rel="noopener noreferrer">
             <img src={locationLogo} alt="Location" />
           </a>
-        </div>
-        <div>
-        <img src={emailLogo} alt="Email" style={{ width: '31px', height: 'auto' }} />
         </div>
       </div>
     </header>

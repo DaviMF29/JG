@@ -33,9 +33,11 @@ footer.footer {
     flex-direction: column; /* Empilha as seções verticalmente em telas menores */
     align-items: flex-start; /* Alinha à esquerda no modo empilhado */
     padding: 20px; /* Reduz o padding em telas pequenas */
+    width: 100%; /* Ocupa toda a largura da tela */
   }
 
   .footer-section {
-    text-align: center; /* Centraliza texto em telas menores */
+    align-self: center;
+    text-align: justify; /* Centraliza texto em telas menores */
   }
 }

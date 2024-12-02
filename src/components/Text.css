@@ -98,8 +98,7 @@ a:hover {
   ul li {
     display: flex;
     flex-direction: column; /* Texto acima da imagem */
-    align-items: center;
-    text-align: center;
+    text-align: justify;
     gap: 15px; /* Espaço entre o texto e a imagem */
     margin-bottom: 25px; /* Espaço maior entre itens */
   }
@@ -123,7 +122,7 @@ a:hover {
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     width: 50%; /* Largura responsiva */
-    height: 175px;
+    height: 300px;
     aspect-ratio: 16 / 10; /* Define a proporção (largura / altura) */
     border-radius: 8px; /* Bordas arredondadas, opcional */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */

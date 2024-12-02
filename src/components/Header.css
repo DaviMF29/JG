@@ -15,10 +15,10 @@ header {
 }
 
 .telephone {
-    display: flex; /* Organiza os itens na horizontal */
-    align-items: center; /* Centraliza os itens verticalmente */
-    gap: 3rem; /* Espaçamento entre os itens */
-    color: black; /* Define a cor do texto */
+    display: flex; 
+    align-items: center; 
+    gap: 3rem; 
+    color: black;
     font-size: 1.1rem;
     margin-left: 40px;
 }
@@ -26,14 +26,94 @@ header {
 
 .logos {
     display: flex;
-    gap: 1.2rem; /* Espaço entre as logos */
-    margin-right: 40px; /* Espaço da borda direita */
+    gap: 1.2rem; 
+    margin-right: 40px; 
     margin-top:5px
 }
 
 .logos img {
-    width: 25px; /* Redimensiona as logos */
+    width: 25px; 
     height: 25px;
-    object-fit: contain; /* Garante que a proporção seja mantida */
+    object-fit: contain; 
+}
+
+@media screen and (max-width: 1200) {
+    .header-container{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .telephone {
+        gap: 1rem; 
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+
+    .logos {
+        margin-right: 140px;
+        gap: 0.8rem;
+    }
+
+    .logos img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-container {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .telephone {
+        gap: 0.5rem; 
+        font-size: 0.7rem; 
+        margin-left: 10px; 
+    }
+
+    .logos {
+        margin-right: 50px; 
+        gap: 0.5rem; 
+    }
+
+    .logos img {
+        width: 12px; 
+        height: 12px;
+    }
+
+    .header-container {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.3em; 
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header-container {
+        padding: 10px;
+        display: flex;
+        flex-direction: row; 
+        gap: 0.8rem; 
+    }
+
+    .telephone {
+        font-size: 0.9rem; 
+        margin-left: 20px;
+    }
+
+    .logos {
+        margin-right: 80px; 
+        gap: 0.5rem; 
+    }
+
+    .logos img {
+        width: 15px;
+        height: 15px; 
+    }
 }
 
