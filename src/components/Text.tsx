@@ -19,56 +19,61 @@ const Main = () => {
         <h3>Nossas Qualidades</h3>
         <ul>
           <li>
-            <div className="quality-item">
-              <p>
-                <strong>Acabamento de Alta Qualidade:</strong> Garantimos acabamentos impecáveis que transformam ambientes, como demonstrado neste balcão, onde destacamos detalhes refinados e durabilidade.
-              </p>
-              <div
-                className="backimg"
-                style={{
-                  backgroundImage: `url(${balcao})`,
-                }}
-              ></div>
-            </div>
+          <div className="quality-item">
+            <p>
+              <h4>Acabamento de Alta Qualidade:</h4>
+              Garantimos acabamentos impecáveis que transformam ambientes, como demonstrado neste balcão, onde destacamos detalhes refinados e durabilidade.
+            </p>
+            <div
+              className="backimg"
+              style={{
+                backgroundImage: `url(${balcao})`,
+              }}
+            ></div>
+          </div>
           </li>
           <li>
-            <div className="quality-item">
-              <p>
-                <strong>Infraestrutura e Funcionalidade:</strong> Criamos áreas de serviço práticas e eficientes, projetadas para atender às necessidades do dia a dia com organização e estilo, como nesta área moderna.
-              </p>
-              <div
-                className="backimg"
-                style={{
-                  backgroundImage: `url(${area})`,
-                }}
-              ></div>
-            </div>
+          <div className="quality-item">
+            <p>
+              <h4>Infraestrutura e Funcionalidade:</h4>
+              Criamos áreas de serviço práticas e eficientes, projetadas para atender às necessidades do dia a dia com organização e estilo, como nesta área moderna.
+            </p>
+            <div
+              className="backimg"
+              id="area"
+              style={{
+                backgroundImage: `url(${area})`,
+              }}
+            ></div>
+          </div>
           </li>
           <li>
-            <div className="quality-item">
-              <p>
-                <strong>Estilo e Sofisticação:</strong> Desenvolvemos projetos de pintura que realçam a estética dos ambientes, combinando sofisticação e criatividade, como nesta parede de destaque que enriquece o espaço.
-              </p>
-              <div
-                className="backimg"
-                style={{
-                  backgroundImage: `url(${pintura})`,
-                }}
-              ></div>
-            </div>
+          <div className="quality-item">
+            <p>
+              <h4>Estilo e Sofisticação:</h4>
+              Desenvolvemos projetos de pintura que realçam a estética dos ambientes, combinando sofisticação e criatividade, como nesta parede de destaque que enriquece o espaço.
+            </p>
+            <div
+              className="backimg"
+              style={{
+                backgroundImage: `url(${pintura})`,
+              }}
+            ></div>
+          </div>
           </li>
           <li>
-            <div className="quality-item">
-              <p>
-                <strong>Ambientes Planejados:</strong> Projetamos interiores que traduzem a personalidade de nossos clientes, garantindo conforto e funcionalidade em cada detalhe, como este espaço acolhedor.
-              </p>
-              <div
-                className="backimg"
-                style={{
-                  backgroundImage: `url(${interior})`,
-                }}
-              ></div>
-            </div>
+          <div className="quality-item">
+            <p>
+              <h4>Ambientes Planejados:</h4>
+              Projetamos interiores que traduzem a personalidade de nossos clientes, garantindo conforto e funcionalidade em cada detalhe, como este espaço acolhedor.
+            </p>
+            <div
+              className="backimg"
+              style={{
+                backgroundImage: `url(${interior})`,
+              }}
+            ></div>
+          </div>
           </li>
         </ul>
       </section>

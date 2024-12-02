@@ -13,7 +13,7 @@ const Header = () => {
       <div className="telephone">
       <div>
       <a 
-      href="https://wa.me/5514999605608" 
+      href="https://wa.me/5514996095608" 
       target="_blank" 
       rel="noopener noreferrer" 
       style={{ color: "#363636", textDecoration: "none" }}>
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <div>
         <a
-          href="https://wa.me/5514999605608"
+          href="https://wa.me/5514996095608" 
           target="_blank" 
           rel="noopener noreferrer">
           <img src={whatsappLogo} alt="WhatsApp" />

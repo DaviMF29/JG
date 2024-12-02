@@ -6,11 +6,11 @@ footer.footer {
   justify-content: space-between; 
   align-items: center; 
   gap: 20px; /* Espaçamento adicional entre as seções */
+  width: 100%; /* Ocupa toda a largura da tela */
 }
 
 .footer-section {
-  flex: 1; /* Faz as seções ocuparem larguras iguais */
-  min-width: 200px; /* Define uma largura mínima */
+  flex: 1; /* Ocupa todo o espaço disponível */
   text-align: left; /* Mantém o texto alinhado à esquerda */
 }
 
@@ -28,16 +28,69 @@ footer.footer {
   line-height: 1.5; /* Melhor espaçamento entre as linhas */
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+
   footer.footer {
-    flex-direction: column; /* Empilha as seções verticalmente em telas menores */
+    flex-direction: row; /* Empilha as seções verticalmente em telas menores */
     align-items: flex-start; /* Alinha à esquerda no modo empilhado */
     padding: 20px; /* Reduz o padding em telas pequenas */
     width: 100%; /* Ocupa toda a largura da tela */
   }
 
-  .footer-section {
-    align-self: center;
-    text-align: justify; /* Centraliza texto em telas menores */
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    color: white;
+    line-height: 0.9; /* Melhor espaçamento entre as linhas */
   }
+  
+}
+
+@media screen and (max-width: 438) {
+
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.75em;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.7em;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.6rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.55rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.5rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+  
 }

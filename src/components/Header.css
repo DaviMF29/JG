@@ -37,27 +37,22 @@ header {
     object-fit: contain; 
 }
 
-@media screen and (max-width: 1200) {
-    .header-container{
-        padding: 10px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .telephone {
-        gap: 1rem; 
-        font-size: 1.5rem;
+        gap: 2.5rem; 
+        font-size: 20px;
         margin-left: 20px;
     }
 
     .logos {
-        margin-right: 140px;
+        margin-right: 35px;
         gap: 0.8rem;
     }
 
     .logos img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     .header-container {
@@ -68,52 +63,43 @@ header {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .telephone {
-        gap: 0.5rem; 
-        font-size: 0.7rem; 
-        margin-left: 10px; 
-    }
-
-    .logos {
-        margin-right: 50px; 
-        gap: 0.5rem; 
-    }
-
-    .logos img {
-        width: 12px; 
-        height: 12px;
-    }
-
+@media screen and (max-width: 540px) {
     .header-container {
-        padding: 15px;
-        display: flex;
-        justify-content: space-between;
-        gap: 0.3em; 
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .header-container {
-        padding: 10px;
         display: flex;
         flex-direction: row; 
         gap: 0.8rem; 
     }
 
     .telephone {
-        font-size: 0.9rem; 
+        font-size: 1rem; 
         margin-left: 20px;
     }
 
     .logos {
-        margin-right: 80px; 
+        margin-right: 30px; 
         gap: 0.5rem; 
     }
 
     .logos img {
-        width: 15px;
-        height: 15px; 
+        width: 20px;
+        height: 20px; 
     }
 }
 
+@media screen and (max-width: 405px) {
+    .telephone {
+        font-size: 0.8rem; 
+        margin-left: 10px;
+    }
+
+    .logos {
+        margin-right: 40px; 
+        gap: 0.5rem; 
+    }
+
+    .logos img {
+        width: 17px;
+        height: 17px; 
+    }
+    
+}
