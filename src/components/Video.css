@@ -5,10 +5,10 @@
   padding-top: 50px; /* Espaço entre a linha e o vídeo */
 }
 
+.video-player {
+  width: 100%;
+  height: auto; /* Ajusta a altura automaticamente proporcional à largura */
+  max-height: 100%; /* Garante que o vídeo não ultrapasse o container */
+}
 
-  
-  .video-player {
-    width: 100%;
-    height: 400px;
-  }
   
