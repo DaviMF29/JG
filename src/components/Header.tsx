@@ -18,7 +18,7 @@ const Header = () => {
       rel="noopener noreferrer" 
       style={{ color: "#363636", textDecoration: "none" }}>
       <FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: "8px" }} />
-      (14) 99960-5608
+      (14) 99609-5608
     </a>
       </div>
     </div>
