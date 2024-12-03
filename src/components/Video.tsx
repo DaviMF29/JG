@@ -4,7 +4,7 @@ import './Video.css';
 const Video = () => {
   return (
     <div className="video-container">
-      <video className="video-player" autoPlay muted controls playsInline>
+      <video className="video-player" autoPlay muted loop controls playsInline>
         <source src={casaVideo} type="video/mp4" />
         Seu navegador não suporta o elemento de vídeo.
       </video>

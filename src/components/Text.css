@@ -44,6 +44,9 @@ p {
   color: #444;
 }
 
+.quality-item p {
+  font-size: 25px;
+}
 
 a {
   color: var(--color-green);
@@ -88,7 +91,7 @@ a:hover {
     
   }
   .about-jg p {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   p {
@@ -123,6 +126,11 @@ a:hover {
     line-height: 1.6; /* Melhor espaçamento entre linhas */
     text-align: justify;
   }
+
+  .quality-item p {
+    font-size: 20px;
+  }
+  
 
   .backimg {
     background-size: cover; 
@@ -188,6 +196,10 @@ a:hover {
     text-align: justify;
   }
 
+  .quality-item p {
+    font-size: 15px;
+  }
+  
   .backimg{
     width: 40%;
     height: 300px;
@@ -209,7 +221,7 @@ a:hover {
   }
 
   .about-jg p {
-    font-size: 14px; /* Texto confortável para leitura */
+    font-size: 20px; /* Texto confortável para leitura */
   }
 
   p {
@@ -242,6 +254,10 @@ a:hover {
     text-align: justify;
   }
 
+  .quality-item p {
+    font-size: 20px;
+  }
+
   .backimg {
     width: 180px;
     height: 130px;
@@ -251,6 +267,19 @@ a:hover {
 }
 
 @media screen and (max-width: 450px) {
+
+  .about-jg p {
+    font-size: 18px; 
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .quality-item p {
+    font-size: 15px;
+  }
+
   .backimg {
     width: 110px; /* Largura ajustada para telas de 450px */
     height: 100px; /* Altura proporcional */
@@ -275,7 +304,7 @@ a:hover {
   }
 
   .about-jg p {
-    font-size: 14px; 
+    font-size: 15px; 
   }
 
   p {
@@ -306,6 +335,10 @@ a:hover {
     font-size: 16px; 
     line-height: 1.5; 
     text-align: justify;
+  }
+
+  .quality-item p {
+    font-size: 15px;
   }
 
   .backimg {
@@ -432,10 +465,15 @@ a:hover {
 
 @media  screen and (max-width: 320px) {
   h2, h3 {
-    font-size: 10px; /* Títulos menores para proporção adequada */
+    font-size: 20px; /* Títulos menores para proporção adequada */
     text-align: center;
     margin-bottom: 6px; /* Margem reduzida */
   }
+  
+  .about-jg p  {
+    font-size: 13px; /* Texto confortável para leitura */
+  }
+
   .backimg {
     width: 80px; /* Largura proporcional para telas menores */
     height: 70px; /* Altura ajustada mantendo a proporção */
