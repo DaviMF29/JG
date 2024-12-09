@@ -1,10 +1,10 @@
 import "./Text.css";
-//import trator from "../assets/casa/trator.jpg"; // Boas máquinas trabalhando
-import pintura from "../assets/casa/pintura.jpg"; // Arquitetura moderna
-import balcao from "../assets/casa/balcao.jpg"; // Boa qualidade da pintura
-import area from "../assets/casa/area.jpg"; // Uso de materiais de alta qualidade
-import interior from "../assets/casa/interior.jpg"; // Atendimento personalizado
 
+import pintura from "../assets/casa/pintura.jpg"; 
+import balcao from "../assets/casa/balcao.jpg"; 
+import area from "../assets/casa/area.jpg"; 
+import interior from "../assets/casa/interior.jpg"; 
+import ilha2 from "../assets/casa/ilha2.jpg"; 
 const Main = () => {
   return (
     <div>
@@ -71,6 +71,18 @@ const Main = () => {
               className="backimg"
               style={{
                 backgroundImage: `url(${interior})`,
+              }}
+            ></div>
+          </div>
+          <div className="quality-item">
+            <p>
+              <h4>Ilha e balcao em porcelanato:</h4>
+              Criamos ilhas e balcões em porcelanato com design sofisticado, alta durabilidade e acabamentos personalizados.
+            </p>
+            <div
+              className="backimg"
+              style={{
+                backgroundImage: `url(${ilha2})`,
               }}
             ></div>
           </div>
